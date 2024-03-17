@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bepass-org/warp-plus/ipscanner/internal/statute"
+	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
 )
 
 type HttpPingResult struct {

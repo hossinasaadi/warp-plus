@@ -13,8 +13,8 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/bepass-org/warp-plus/ipscanner/internal/statute"
-	"github.com/bepass-org/warp-plus/warp"
+	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
+	"github.com/hossinasaadi/warp-plus/warp"
 	"github.com/flynn/noise"
 	"golang.org/x/crypto/blake2s"
 	"golang.org/x/crypto/curve25519"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bepass-org/warp-plus/proxy/pkg/mixed"
+	"github.com/hossinasaadi/warp-plus/proxy/pkg/mixed"
 )
 
 func main() {

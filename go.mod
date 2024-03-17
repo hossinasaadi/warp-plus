@@ -1,8 +1,8 @@
-module github.com/bepass-org/warp-plus
+module github.com/hossinasaadi/warp-plus
 
 go 1.21.1
 
-replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/bepass-org/psiphon-tunnel-core v0.0.0-20240311155012-9c2e10df08e5
+replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/hossinasaadi/psiphon-tunnel-core v0.0.0-20240311155012-9c2e10df08e5
 
 require (
 	github.com/Psiphon-Labs/psiphon-tunnel-core v2.0.28+incompatible

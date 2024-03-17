@@ -6,9 +6,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/bepass-org/warp-plus/ipscanner/internal/iterator"
-	"github.com/bepass-org/warp-plus/ipscanner/internal/ping"
-	"github.com/bepass-org/warp-plus/ipscanner/internal/statute"
+	"github.com/hossinasaadi/warp-plus/ipscanner/internal/iterator"
+	"github.com/hossinasaadi/warp-plus/ipscanner/internal/ping"
+	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
 )
 
 type Engine struct {

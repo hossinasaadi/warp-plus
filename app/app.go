@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/bepass-org/warp-plus/psiphon"
-	"github.com/bepass-org/warp-plus/warp"
-	"github.com/bepass-org/warp-plus/wiresocks"
+	"github.com/hossinasaadi/warp-plus/psiphon"
+	"github.com/hossinasaadi/warp-plus/warp"
+	"github.com/hossinasaadi/warp-plus/wiresocks"
 )
 
 const singleMTU = 1400
