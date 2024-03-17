@@ -4,6 +4,8 @@ go 1.21.1
 
 replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/bepass-org/psiphon-tunnel-core v0.0.0-20240311155012-9c2e10df08e5
 
+replace github.com/cognusion/go-cache-lru => github.com/hossinasaadi/go-cache-lru v0.0.0-20240317125611-5e1f89bd42e9
+
 require (
 	github.com/Psiphon-Labs/psiphon-tunnel-core v2.0.28+incompatible
 	github.com/fatih/color v1.16.0
