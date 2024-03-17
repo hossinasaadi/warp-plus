@@ -8,7 +8,7 @@ package device
 import (
 	"errors"
 
-	"github.com/bepass-org/warp-plus/wireguard/conn"
+	"github.com/hossinasaadi/warp-plus/wireguard/conn"
 )
 
 type DummyDatagram struct {

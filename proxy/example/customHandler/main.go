@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/bepass-org/warp-plus/proxy/pkg/mixed"
-	"github.com/bepass-org/warp-plus/proxy/pkg/statute"
+	"github.com/hossinasaadi/warp-plus/proxy/pkg/mixed"
+	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
 )
 
 func main() {

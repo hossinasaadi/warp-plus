@@ -8,7 +8,7 @@ package device
 import (
 	"fmt"
 
-	"github.com/bepass-org/warp-plus/wireguard/tun"
+	"github.com/hossinasaadi/warp-plus/wireguard/tun"
 )
 
 const DefaultMTU = 1420

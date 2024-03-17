@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/bepass-org/warp-plus/ipscanner"
-	"github.com/bepass-org/warp-plus/warp"
 	"github.com/go-ini/ini"
+	"github.com/hossinasaadi/warp-plus/ipscanner"
+	"github.com/hossinasaadi/warp-plus/warp"
 )
 
 func canConnectIPv6(remoteAddr netip.AddrPort) bool {
