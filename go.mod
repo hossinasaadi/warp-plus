@@ -7,7 +7,7 @@ replace github.com/cognusion/go-cache-lru => github.com/hossinasaadi/go-cache-lr
 replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/uoosef/psiphon-tunnel-core v0.0.0-20240126135009-9fbc37b0b068
 
 require (
-	github.com/Psiphon-Labs/psiphon-tunnel-core v0.0.0-00010101000000-000000000000
+	github.com/Psiphon-Labs/psiphon-tunnel-core v2.0.28+incompatible
 	github.com/fatih/color v1.16.0
 	github.com/flynn/noise v1.1.0
 	github.com/frankban/quicktest v1.14.6
@@ -19,6 +19,7 @@ require (
 	github.com/refraction-networking/utls v1.3.3
 	github.com/rodaine/table v1.1.1
 	golang.org/x/crypto v0.18.0
+	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090
 	golang.org/x/net v0.20.0
 	golang.org/x/sys v0.16.0
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2
@@ -80,7 +81,6 @@ require (
 	github.com/wader/filtertransport v0.0.0-20200316221534-bdd9e61eee78 // indirect
 	gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib v1.5.0 // indirect
 	go.uber.org/mock v0.3.0 // indirect
-	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20240119083558-1b970713d09a // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
