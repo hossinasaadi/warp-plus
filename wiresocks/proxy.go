@@ -3,7 +3,7 @@ package wiresocks
 import (
 	"context"
 	"io"
-	"log/slog"
+
 	"net"
 	"net/netip"
 
@@ -11,6 +11,7 @@ import (
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
 	"github.com/hossinasaadi/warp-plus/wireguard/device"
 	"github.com/hossinasaadi/warp-plus/wireguard/tun/netstack"
+	"golang.org/x/exp/slog"
 )
 
 // VirtualTun stores a reference to netstack network and DNS configuration

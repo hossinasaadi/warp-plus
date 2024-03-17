@@ -1,8 +1,6 @@
 module github.com/hossinasaadi/warp-plus
 
-go 1.21.1
-
-toolchain go1.21.5
+go 1.20
 
 replace github.com/cognusion/go-cache-lru => github.com/hossinasaadi/go-cache-lru v0.0.0-20240317125611-5e1f89bd42e9
 

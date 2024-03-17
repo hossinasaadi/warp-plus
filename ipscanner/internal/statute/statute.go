@@ -3,13 +3,13 @@ package statute
 import (
 	"context"
 	"crypto/tls"
-	"log/slog"
 	"net"
 	"net/http"
 	"net/netip"
 	"time"
 
 	"github.com/quic-go/quic-go"
+	"golang.org/x/exp/slog"
 )
 
 type TIPQueueChangeCallback func(ips []IPInfo)

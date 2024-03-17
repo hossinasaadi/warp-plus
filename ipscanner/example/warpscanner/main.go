@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"log/slog"
+
 	"net"
 	"net/netip"
 	"os"
@@ -13,6 +13,7 @@ import (
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
 	"github.com/hossinasaadi/warp-plus/warp"
 	"github.com/rodaine/table"
+	"golang.org/x/exp/slog"
 )
 
 var (

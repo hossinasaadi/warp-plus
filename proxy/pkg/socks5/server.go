@@ -5,10 +5,11 @@ import (
 	"context"
 	"fmt"
 	"io"
-	"log/slog"
+
 	"net"
 
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
+	"golang.org/x/exp/slog"
 )
 
 // Server is accepting connections and handling the details of the SOCKS5 protocol

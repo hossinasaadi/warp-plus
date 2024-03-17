@@ -3,12 +3,13 @@ package ipscanner
 import (
 	"context"
 	"crypto/tls"
-	"log/slog"
+
 	"net/netip"
 	"time"
 
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/engine"
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
+	"golang.org/x/exp/slog"
 )
 
 type IPScanner struct {

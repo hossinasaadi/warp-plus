@@ -2,10 +2,11 @@ package mixed
 
 import (
 	"context"
-	"log/slog"
+
 	"net"
 
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
+	"golang.org/x/exp/slog"
 )
 
 func WithBindAddress(binAddress string) Option {

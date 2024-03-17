@@ -2,13 +2,13 @@ package engine
 
 import (
 	"context"
-	"log/slog"
 	"net/netip"
 	"time"
 
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/iterator"
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/ping"
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
+	"golang.org/x/exp/slog"
 )
 
 type Engine struct {

@@ -3,13 +3,14 @@ package mixed
 import (
 	"bufio"
 	"context"
-	"log/slog"
+
 	"net"
 
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/http"
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/socks4"
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/socks5"
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
+	"golang.org/x/exp/slog"
 )
 
 type userHandler func(request *statute.ProxyRequest) error

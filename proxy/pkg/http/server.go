@@ -4,12 +4,13 @@ import (
 	"bufio"
 	"context"
 	"io"
-	"log/slog"
+
 	"net"
 	"net/http"
 	"strconv"
 
 	"github.com/hossinasaadi/warp-plus/proxy/pkg/statute"
+	"golang.org/x/exp/slog"
 )
 
 type Server struct {

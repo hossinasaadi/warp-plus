@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"log/slog"
 
 	"github.com/hossinasaadi/warp-plus/wireguard/conn"
 	"github.com/hossinasaadi/warp-plus/wireguard/device"
 	"github.com/hossinasaadi/warp-plus/wireguard/tun/netstack"
+	"golang.org/x/exp/slog"
 )
 
 // StartWireguard creates a tun interface on netstack given a configuration

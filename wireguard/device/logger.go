@@ -8,8 +8,10 @@ package device
 import (
 	"fmt"
 	"log"
-	"log/slog"
+
 	"os"
+
+	"golang.org/x/exp/slog"
 )
 
 // A Logger provides logging for a Device.

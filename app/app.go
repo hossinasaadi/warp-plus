@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log/slog"
+
 	"net/netip"
 	"os"
 	"path/filepath"
@@ -13,6 +13,7 @@ import (
 	"github.com/hossinasaadi/warp-plus/psiphon"
 	"github.com/hossinasaadi/warp-plus/warp"
 	"github.com/hossinasaadi/warp-plus/wiresocks"
+	"golang.org/x/exp/slog"
 )
 
 const singleMTU = 1400

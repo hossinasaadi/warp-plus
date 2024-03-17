@@ -1,12 +1,12 @@
 package engine
 
 import (
-	"log/slog"
 	"sort"
 	"sync"
 	"time"
 
 	"github.com/hossinasaadi/warp-plus/ipscanner/internal/statute"
+	"golang.org/x/exp/slog"
 )
 
 type IPQueue struct {

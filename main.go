@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log/slog"
+
 	"net/netip"
 	"os"
 	"os/signal"
@@ -13,6 +13,7 @@ import (
 
 	"github.com/hossinasaadi/warp-plus/app"
 	"github.com/hossinasaadi/warp-plus/warp"
+	"golang.org/x/exp/slog"
 
 	"github.com/peterbourgon/ff/v4"
 	"github.com/peterbourgon/ff/v4/ffhelp"
