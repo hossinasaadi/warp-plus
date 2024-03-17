@@ -2,12 +2,14 @@ module github.com/hossinasaadi/warp-plus
 
 go 1.21.1
 
-replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/bepass-org/psiphon-tunnel-core v0.0.0-20240311155012-9c2e10df08e5
+toolchain go1.21.5
 
 replace github.com/cognusion/go-cache-lru => github.com/hossinasaadi/go-cache-lru v0.0.0-20240317125611-5e1f89bd42e9
 
+replace github.com/Psiphon-Labs/psiphon-tunnel-core => github.com/uoosef/psiphon-tunnel-core v0.0.0-20240126135009-9fbc37b0b068
+
 require (
-	github.com/Psiphon-Labs/psiphon-tunnel-core v2.0.28+incompatible
+	github.com/Psiphon-Labs/psiphon-tunnel-core v0.0.0-00010101000000-000000000000
 	github.com/fatih/color v1.16.0
 	github.com/flynn/noise v1.1.0
 	github.com/frankban/quicktest v1.14.6
@@ -18,11 +20,11 @@ require (
 	github.com/quic-go/quic-go v0.40.1
 	github.com/refraction-networking/utls v1.3.3
 	github.com/rodaine/table v1.1.1
-	golang.org/x/crypto v0.21.0
-	golang.org/x/net v0.22.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/crypto v0.18.0
+	golang.org/x/net v0.20.0
+	golang.org/x/sys v0.16.0
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2
-	gvisor.dev/gvisor v0.0.0-20240313225113-67a078058255
+	gvisor.dev/gvisor v0.0.0-20230927004350-cbd86285d259
 )
 
 require (
@@ -31,8 +33,10 @@ require (
 	github.com/AndreasBriese/bbloom v0.0.0-20170702084017-28f7e881ca57 // indirect
 	github.com/Psiphon-Labs/bolt v0.0.0-20200624191537-23cedaef7ad7 // indirect
 	github.com/Psiphon-Labs/goptlib v0.0.0-20200406165125-c0e32a7a3464 // indirect
-	github.com/Psiphon-Labs/psiphon-tls v0.0.0-20240305020009-09f917290799 // indirect
-	github.com/Psiphon-Labs/quic-go v0.0.0-20240305203241-7c4a760d03cc // indirect
+	github.com/Psiphon-Labs/qtls-go1-19 v0.0.0-20230608213623-d58aa73e519a // indirect
+	github.com/Psiphon-Labs/qtls-go1-20 v0.0.0-20230608214729-dd57d6787acf // indirect
+	github.com/Psiphon-Labs/quic-go v0.0.0-20230626192210-73f29effc9da // indirect
+	github.com/Psiphon-Labs/tls-tris v0.0.0-20230824155421-58bf6d336a9a // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f // indirect
 	github.com/bifurcation/mint v0.0.0-20180306135233-198357931e61 // indirect
@@ -44,7 +48,7 @@ require (
 	github.com/gaukas/godicttls v0.0.4 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/btree v1.1.2 // indirect
+	github.com/google/btree v1.0.1 // indirect
 	github.com/google/pprof v0.0.0-20211214055906-6f57359322fd // indirect
 	github.com/grafov/m3u8 v0.0.0-20171211212457-6ab8f28ed427 // indirect
 	github.com/juju/ratelimit v1.0.2 // indirect
@@ -67,9 +71,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
-	github.com/refraction-networking/conjure v0.7.11-0.20240130155008-c8df96195ab2 // indirect
+	github.com/refraction-networking/conjure v0.7.10-0.20231110193225-e4749a9dedc9 // indirect
 	github.com/refraction-networking/ed25519 v0.1.2 // indirect
-	github.com/refraction-networking/gotapdance v1.7.10 // indirect
+	github.com/refraction-networking/gotapdance v1.7.7 // indirect
 	github.com/refraction-networking/obfs4 v0.1.2 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/sergeyfrolov/bsbuffer v0.0.0-20180903213811-94e85abb8507 // indirect
@@ -82,7 +86,7 @@ require (
 	golang.org/x/exp/typeparams v0.0.0-20240119083558-1b970713d09a // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/time v0.5.0 // indirect
+	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	golang.org/x/tools v0.17.0 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 )
