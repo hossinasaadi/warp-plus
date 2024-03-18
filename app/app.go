@@ -5,14 +5,15 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/bepass-org/wireguard-go/psiphon"
-	"github.com/bepass-org/wireguard-go/warp"
-	"github.com/bepass-org/wireguard-go/wiresocks"
 	"log"
 	"net"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/hossinasaadi/warp-plus/psiphon"
+	"github.com/hossinasaadi/warp-plus/warp"
+	"github.com/hossinasaadi/warp-plus/wiresocks"
 )
 
 func RunWarp(psiphonEnabled, gool, scan, verbose bool, country, bindAddress, endpoint, license string, ctx context.Context, rtThreshold int) error {

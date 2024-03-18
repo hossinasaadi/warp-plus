@@ -5,11 +5,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/bepass-org/wireguard-go/warp"
 	"math/rand"
 	"net"
 	"strings"
 	"time"
+
+	"github.com/hossinasaadi/warp-plus/warp"
 
 	"github.com/go-ini/ini"
 

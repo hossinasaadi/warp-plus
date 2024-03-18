@@ -17,8 +17,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/bepass-org/wireguard-go/conn"
-	"github.com/bepass-org/wireguard-go/rwcancel"
+	"github.com/hossinasaadi/warp-plus/conn"
+	"github.com/hossinasaadi/warp-plus/rwcancel"
 	"golang.org/x/sys/unix"
 )
 

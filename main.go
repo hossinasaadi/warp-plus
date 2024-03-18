@@ -10,7 +10,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/bepass-org/wireguard-go/app"
+	"github.com/hossinasaadi/warp-plus/app"
 )
 
 type Flags struct {

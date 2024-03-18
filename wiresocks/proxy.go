@@ -3,13 +3,14 @@ package wiresocks
 import (
 	"context"
 	"fmt"
-	"github.com/bepass-org/proxy/pkg/mixed"
-	"github.com/bepass-org/proxy/pkg/statute"
-	"github.com/bepass-org/wireguard-go/device"
-	"github.com/bepass-org/wireguard-go/tun/netstack"
 	"io"
 	"log"
 	"time"
+
+	"github.com/bepass-org/proxy/pkg/mixed"
+	"github.com/bepass-org/proxy/pkg/statute"
+	"github.com/hossinasaadi/warp-plus/device"
+	"github.com/hossinasaadi/warp-plus/tun/netstack"
 )
 
 // VirtualTun stores a reference to netstack network and DNS configuration

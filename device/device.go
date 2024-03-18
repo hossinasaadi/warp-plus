@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bepass-org/wireguard-go/conn"
-	"github.com/bepass-org/wireguard-go/ratelimiter"
-	"github.com/bepass-org/wireguard-go/rwcancel"
-	"github.com/bepass-org/wireguard-go/tun"
+	"github.com/hossinasaadi/warp-plus/conn"
+	"github.com/hossinasaadi/warp-plus/ratelimiter"
+	"github.com/hossinasaadi/warp-plus/rwcancel"
+	"github.com/hossinasaadi/warp-plus/tun"
 )
 
 type Device struct {
